@@ -1,0 +1,19 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "n/a",
+        "name": "Jayly Console",
+        "uuid": "9a88798c-8385-4152-bfcd-3d5378a54205",
+        "version": [ 1, 4, 0 ]
+    },
+    "authentication": [
+        {
+            "type": "main",
+	    "token": "9HvkEVft2Nb5sD7Zdh3V4dUG3XMFxeUH"
+        },
+	{
+            "type": "backup",
+	    "token": "LJt5VH7qzVwZBQPa5fWFvzqQGxk7BuHT"
+        }
+    ]
+}
