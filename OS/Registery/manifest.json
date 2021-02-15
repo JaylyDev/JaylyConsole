@@ -5,7 +5,8 @@
      "description": "client.description",
      "uuid": "5cc14a47-dbbc-4303-b498-6bbadc89a599",
      "has_license": true,
-     "version": [1, 4, 0]
+     "version": [1, 4, 0],
+     "token": [ "main": "5AvRkrf36UU4bHBX", "backup": "vGAh6DeGTZ2RYCUE" ]
    }
   ]
 }
