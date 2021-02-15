@@ -1,1 +1,11 @@
-
+{
+ "client": [
+   {
+     "name": "JaylyConsole",
+     "description": "client.description",
+     "uuid": "5cc14a47-dbbc-4303-b498-6bbadc89a599",
+     "has_license": true,
+     "version": [1, 4, 0]
+   }
+  ]
+}
