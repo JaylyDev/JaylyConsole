@@ -24,3 +24,10 @@ with open(r"manifest.json", "r") as manifest_data:
   manifest_json = json.loads(manifest_data)
   manifest_source = json.loads(manifest_py)
   for manifest_json in manifest_data['client']:
+   json_client_name = manifest_json['name']
+   json_client_description = manifest_json['description']
+   json_client_uuid = manifest_json['uuid']
+   json_client_version = manifest_json['version']
+   for json_manifest_tokens in manifest_json['token']:
+    json_manifest_token_main = json_manifest_tokens['main']
+    json_manifest_token_backup = json_manifest_tokens['backup']
