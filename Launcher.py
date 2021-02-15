@@ -31,7 +31,7 @@ SOFTWARE.
 """
 license_file = open("LICENSE", "r")
 if license_file == jclicense_14:
-  import OS.Registery.verifications
+  import OS.Registery.2fa
 else:
   print("JaylyConsole detects either the content of license is incorrect compared to the original's.")
   exitregistery = input("Please press \"Enter\" to shut down the console.")
