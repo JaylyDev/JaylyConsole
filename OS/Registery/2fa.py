@@ -1,4 +1,5 @@
 import json
+import numpy
 
 # manifest_py stores manifest data
 manifest_py = """
@@ -42,14 +43,47 @@ manifest_source = json.loads(manifest_py)
     py_manifest_token_backup = py_manifest_tokens['backup']
 
 # Compare the modules
+error = 0 # Default error number
 if json_client_name == py_client_name:
  print("Client name: Correct")
 else:
  print("Client name: Incorrect")
+ error1 = 101
 if json_client_description = py_client_description:
+ print("Client description: Correct")
+else:
+ print("Client description: Incorrect")
+ error2 = 212
 if json_client_uuid = py_client_uuid:
-if json_client_version = py_client_versuin
-   for json_manifest_tokens in manifest_json['token']:
+ print("Client description: Correct")
+else:
+ print("Client description: Incorrect")
+ error3 = 323
+if json_client_version = py_client_version:
+ print("Client version: Correct")
+else:
+ print("Client version: Incorrect")
+ error4 = 434
 if json_manifest_token_main == py_manifest_token_main:
- else if json_manifest_token_backup == py_manifest_token_backup:
+ print("Client token [main]: Correct")
+ else:
+  print("Incorrect client token, searching for backup client token...")
+  error5 = 545
+  if json_manifest_token_backup == py_manifest_token_backup:
+   print("Client token [backup]: Correct")
+   jcregistery_confirmation = true
+   jcregistery_errorcode = float(error1) + float(error2) + float(error3) + float(error4) + float(error5)
   else:
+   print("Unable to verify main and backup client token")
+   
+# Redirecting from 2fa.py to login.py
+if jcregistery_confirmation == true:
+ if jcregistery_errorcode =! 0:
+  print("WARNING: JaylyConsole detects the metadata of JaylyConsole is different compared to the original.")
+  print("Here is the Error code: " + str(jcregistery_errorcode))
+ import login
+else:
+ print("""
+ JaylyConsole is unable to verify the metadata of its application.
+ Press \"Enter\" to shut down JaylyConsole.
+ """)
