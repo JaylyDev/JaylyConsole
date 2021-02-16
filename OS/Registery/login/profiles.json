@@ -1,3 +1,10 @@
 {
-  "profiles": {
-    "user": 
+  "profiles": [
+    {
+      "username": "user",
+      "password": "XDXDXDXD",
+      "uuid": "267e6031-5658-4f9d-9b91-5aee420b76ae",
+      "permission": "admin"
+    }
+  ]
+}
