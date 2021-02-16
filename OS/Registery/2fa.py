@@ -81,7 +81,7 @@ if jcregistery_confirmation == true:
  if jcregistery_errorcode =! 0:
   print("WARNING: JaylyConsole detects the metadata of JaylyConsole is different compared to the original.")
   print("Here is the Error code: " + str(jcregistery_errorcode))
- import login
+ import login.main
 else:
  print("JaylyConsole is unable to verify the metadata of its application.")
  exitregistery = input("Press \"Enter\" to shut down JaylyConsole.")
