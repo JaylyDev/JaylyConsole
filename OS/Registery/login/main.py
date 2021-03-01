@@ -18,10 +18,7 @@ if os.path.isfile('profiles.json'):
                         print("Welcome " + jc_client_username)
                         print("Preparing your console...")
                         # Program redirects you to "JaylyConsole/Desktop/" folder
-                        root_path = '/JaylyConsole/OS/Console/User/'
-                        folders = ['Folder_1','Folder_x','Folder_y']
-                        for folder in folders:
-                            os.mkdir(os.path.join(root_path,folder))
+                        import user_desktop_prepare
                     else:
                         print("Incorrect username or password.")
                 else:
